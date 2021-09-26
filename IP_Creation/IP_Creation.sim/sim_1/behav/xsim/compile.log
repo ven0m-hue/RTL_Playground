@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RTL/IP_Creation/IP_Creation.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RTL/IP_Creation/IP_Creation.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RTL/IP_Creation/IP_Creation.srcs/sim_1/new/counter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RTL/IP_Creation/IP_Creation.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/RTL/IP_Creation/IP_Creation.ip_user_files/bd/design_1/ip/design_1_c_counter_binary_0_0/sim/design_1_c_counter_binary_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_c_counter_binary_0_0'

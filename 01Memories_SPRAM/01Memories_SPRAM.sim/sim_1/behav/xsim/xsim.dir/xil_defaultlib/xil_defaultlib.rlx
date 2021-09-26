@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/RTL/01Memories_SPRAM/01Memories_SPRAM.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/RTL/01Memories_SPRAM/01Memories_SPRAM.srcs/sim_1/new/tb.v,1631550286,verilog,,,,tb,,,,,,,,
+D:/RTL/01Memories_SPRAM/01Memories_SPRAM.srcs/sources_1/new/complex.v,1631554660,verilog,,,,complex;complex_tb,,,,,,,,
+D:/RTL/01Memories_SPRAM/01Memories_SPRAM.srcs/sources_1/new/mux.v,1631553049,verilog,,,,mux;mux_tb,,,,,,,,
+D:/RTL/01Memories_SPRAM/01Memories_SPRAM.srcs/sources_1/new/top.v,1631545767,verilog,,D:/RTL/01Memories_SPRAM/01Memories_SPRAM.srcs/sim_1/new/tb.v,,top,,,,,,,,

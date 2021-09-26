@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/RTL/StructuralModelling/StructuralModelling.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/RTL/StructuralModelling/StructuralModelling.srcs/sources_1/new/bitadder.v,1631807914,verilog,,,,bitadder;rip_adder,,,,,,,,
+D:/RTL/StructuralModelling/StructuralModelling.srcs/sources_1/new/df.v,1631805408,verilog,,,,df;jhonson;shift_reg,,,,,,,,
+D:/RTL/StructuralModelling/StructuralModelling.srcs/sources_1/new/muxbit.v,1631882893,verilog,,,,mux_eightb;muxbit;tb,,,,,,,,

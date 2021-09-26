@@ -1,0 +1,122 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1479F9162904CF86",
+      "device": "xcku5p-ffvb676-2-e",
+      "gen_directory": "../../../../Signal_Gen.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Signal_gen_0": "",
+      "clk_wiz_0": ""
+    },
+    "ports": {
+      "clk_in": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clk_in1_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "sel": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "dout_0": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "Signal_gen_0": {
+        "vlnv": "xilinx.com:user:Signal_gen:1.0",
+        "xci_name": "design_1_Signal_gen_0_0",
+        "xci_path": "ip\\design_1_Signal_gen_0_0\\design_1_Signal_gen_0_0.xci",
+        "inst_hier_path": "Signal_gen_0"
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "xci_path": "ip\\design_1_clk_wiz_0_0\\design_1_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKOUT1_JITTER": {
+            "value": "460.700"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "523.418"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "10"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "92.375"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "92.375"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "10"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_in1_0_1": {
+        "ports": [
+          "clk_in",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "Signal_gen_0/clk"
+        ]
+      },
+      "sel_0_1": {
+        "ports": [
+          "sel",
+          "Signal_gen_0/sel"
+        ]
+      },
+      "Signal_gen_0_dout": {
+        "ports": [
+          "Signal_gen_0/dout",
+          "dout_0"
+        ]
+      }
+    }
+  }
+}

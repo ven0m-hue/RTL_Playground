@@ -1,0 +1,166 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xAC5D38E7FA64E5F",
+      "device": "xc7a200tfbg676-2",
+      "gen_directory": "../../../../IP_Creation.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "c_counter_binary_0": ""
+    },
+    "ports": {
+      "UP": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "LOAD": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "CLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_CLK_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "10000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "CE": {
+        "type": "ce",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "L": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "Y": {
+        "type": "data",
+        "direction": "O",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} DATA_WIDTH 16}",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "c_counter_binary_0": {
+        "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
+        "xci_name": "design_1_c_counter_binary_0_0",
+        "xci_path": "ip\\design_1_c_counter_binary_0_0\\design_1_c_counter_binary_0_0.xci",
+        "inst_hier_path": "c_counter_binary_0",
+        "parameters": {
+          "CE": {
+            "value": "true"
+          },
+          "Count_Mode": {
+            "value": "UPDOWN"
+          },
+          "Implementation": {
+            "value": "Fabric"
+          },
+          "Load": {
+            "value": "true"
+          },
+          "Restrict_Count": {
+            "value": "false"
+          },
+          "SCLR": {
+            "value": "false"
+          },
+          "SSET": {
+            "value": "false"
+          }
+        }
+      }
+    },
+    "nets": {
+      "UP_0_1": {
+        "ports": [
+          "UP",
+          "c_counter_binary_0/UP"
+        ]
+      },
+      "LOAD_0_1": {
+        "ports": [
+          "LOAD",
+          "c_counter_binary_0/LOAD"
+        ]
+      },
+      "CLK_0_1": {
+        "ports": [
+          "CLK",
+          "c_counter_binary_0/CLK"
+        ]
+      },
+      "CE_0_1": {
+        "ports": [
+          "CE",
+          "c_counter_binary_0/CE"
+        ]
+      },
+      "L_0_1": {
+        "ports": [
+          "L",
+          "c_counter_binary_0/L"
+        ]
+      },
+      "c_counter_binary_0_Q": {
+        "ports": [
+          "c_counter_binary_0/Q",
+          "Y"
+        ]
+      }
+    }
+  }
+}
